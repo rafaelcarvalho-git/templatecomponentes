@@ -1,0 +1,32 @@
+.works-icon {
+    font-size: 48px;
+    width: 60px;
+}
+
+.btn-group-vertical {
+    max-width: 280px;
+}
+
+.jobs {
+    min-height: 240px;
+}
+
+.work-hover:hover {
+    background-color: #0dcaf0 !important;
+    color: black !important;
+
+}
+
+@media (max-width:991px) {
+    .btn-group-vertical {
+        margin-bottom: 20px;
+    }
+
+    .role-duration {
+        flex-direction: column;
+    }
+
+    .jobs {
+        text-align: center;
+    }
+}
