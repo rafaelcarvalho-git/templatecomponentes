@@ -1,0 +1,30 @@
+.projeto {
+    margin-bottom: 3.4rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: #fff;
+    cursor: pointer;
+    max-width: 385px;
+    overflow: hidden;
+}
+
+.projeto-img img {
+    transition: all 1s;
+}
+
+@media (min-width: 992px) {
+    .projeto-img:hover img {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+}
+
+.projeto-icons {
+    max-width: 158px;
+}
+
+
+
+.x {
+    max-width: 400px;
+}
